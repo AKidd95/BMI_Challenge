@@ -1,7 +1,8 @@
 
 describe("BMICalculator", function() {
   var calculator;
-  var person;
+  var person_metric;
+  var person_imperial;
 
   beforeEach(function() {
     person_metric = new Person({weight: 90, height: 186});

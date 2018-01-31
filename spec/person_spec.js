@@ -15,12 +15,12 @@ describe("Person", function() {
   });
 
   it("should calculate BMI value", function() {
-    person_metric.calculate_bmi();
+    person_metric.calculate_bmi('metric');
     expect(person_metric.bmiValue).toEqual(26.01)
   });
 
   it("should have a BMI Message", function() {
-    person_metric.calculate_bmi();
+    person_metric.calculate_bmi('metric');
     expect(person_metric.bmiMessage).toEqual("Overweight")
   });
 
@@ -33,12 +33,12 @@ describe("Person", function() {
   });
 
   it("should calculate BMI value", function() {
-    person_imperial.calculate_bmi();
+    person_imperial.calculate_bmi('imperial');
     expect(person_imperial.bmiValue).toEqual(21.26)
   });
 
   it("should have a BMI Message", function() {
-    person_imperial.calculate_bmi();
+    person_imperial.calculate_bmi('imperial');
     expect(person_imperial.bmiMessage).toEqual("Normal")
   });
 

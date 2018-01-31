@@ -4,7 +4,7 @@ describe('BMI_UI - index.html', function() {
         jasmine.getFixtures().fixturesPath = '.';
         loadFixtures('index.html');
         $.holdReady(false);
-        $('#metric').trigger('click');
+        $('#Metric').trigger('click');
         $('#weight').val('90');
         $('#height').val('186');
         $('#calculate').trigger('click');
@@ -24,7 +24,7 @@ describe('BMI_UI - index.html', function() {
         jasmine.getFixtures().fixturesPath = '.';
         loadFixtures('index.html');
         $.holdReady(false);
-        $('#imperial').trigger('click');
+        $('#Imperial').trigger('click');
         $('#weight').val('144');
         $('#height').val('69');
         $('#calculate').trigger('click');
