@@ -6,5 +6,6 @@ function Person(attr) {
 Person.prototype.calculate_bmi = function() {
   calculator = new BMICalculator();
   calculator.metric_bmi(this);
+  calculator.imperial_bmi(this);
 
 };

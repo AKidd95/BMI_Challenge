@@ -8,6 +8,8 @@
     <script src='https://code.jquery.com/jquery-2.1.4.js'></script>
   </head>
   <body>
+    <input type="button" id="metric" value="Metric">
+    <input type="button" id="imperial" value="Imperial">
     <form>
       <input type="text" id="weight" placeholder="Weight">
       <input type="text" id="height" placeholder="Height">
@@ -29,6 +31,10 @@
       person_metric.calculate_bmi();
       $('#display_value').html('Your BMI is ' + person_metric.bmiValue);
       $('#display_message').html('and you are '+ person_metric.bmiMessage);
+    });
+    $('#metric').click(function () {
+    $('#imperial').click(function () {
+    });
     });
   });
 </script>

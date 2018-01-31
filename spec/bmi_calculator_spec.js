@@ -18,6 +18,4 @@ describe("BMICalculator", function() {
     calculator.imperial_bmi(person_imperial);
     expect(person_imperial.bmiValue).toEqual(21.26);
   });
-
-
 });
