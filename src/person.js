@@ -10,6 +10,4 @@ Person.prototype.calculate_bmi = function(unit_system) {
   } else {
     calculator.imperial_bmi(this);
   }
-
-
 };
