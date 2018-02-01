@@ -1,13 +1,5 @@
 body {
-    background-color: #4286f4;
-}
-p {
-
-}
-
-ul{
-  list-style-type: none;
-  text-align: center;
+    background-color: #DADDE1;
 }
 
 div {
@@ -20,5 +12,14 @@ div {
 }
 
 h2 {
+    color: black;
+}
+
+.jumbotron{
+    background-color: #3E668D;
+
+}
+
+a {
     color: black;
 }
