@@ -6,7 +6,6 @@ div {
    margin: auto;
    text-align: center;
    align-self: center;
-   border
    width: 75%;
    padding: 20px;
 }
@@ -17,9 +16,21 @@ h2 {
 
 .jumbotron{
     background-color: #3E668D;
-
 }
 
 a {
-    color: black;
+    color: black
+}
+
+div.card-body {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+button#calculate.button {
+  background-color: #3E668D;
+  width: 12em;
+  height: 3em;
+
 }
