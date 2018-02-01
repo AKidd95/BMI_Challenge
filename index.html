@@ -11,45 +11,37 @@
 </head>
 
 <body>
-  <h2> Welcome to BMI Calculator </h2>
+  <div class="jumbotron">
+    <h1 class="display-4">BMI Calculator!!!</h1>
+      <p class="lead">Here you can see just how fat you really are.</p>
+      <hr class="my-4">
+        <p></p>
+
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="https://en.wikipedia.org/wiki/Body_mass_index"
+            target="_blank">Body Mass Index</a>
+          <a href="https://en.wikipedia.org/wiki/Metric"
+              target= "_blank">Metric system</a>
+          <a href="https://en.wikipedia.org/wiki/Imperial_units"
+              target= "_blank">Imperial system</a>
+
+        </p>
+  </div>
     <div class="card" style="width: 25rem;">
-      <img class="card-img-top" src="" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Calculator</h5>
+        <h3 class="card-title">Calculator</h3>
         <p class="card-text">
           <input type="radio" name="unit" value="Metric" id="Metric"> Metric
           <input type="radio" name="unit" value="Imperial" id="Imperial"> Imperial <br>
           <input type="text" id="weight" placeholder="Weight">
           <input type="text" id="height" placeholder="Height"> <br>
-          <input type="button" id="calculate" value="Calculate">
-
+          <button class="button" id="calculate" class="btn btn-primary btn-">Calculate</button>
         </p>
-      </div>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item"> <a href="https://en.wikipedia.org/wiki/Metric"
-          target= "_blank">Metric system</a> </li>
-        <li class="list-group-item"> <a href="https://en.wikipedia.org/wiki/Imperial_units"
-          target= "_blank">Imperial system</a></li>
-      </ul>
-      <div class="card-body">
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
-  <p>
-  </p>
-  <!--<input type="radio" name="unit" value="Metric" id="Metric"> Metric
-  <input type="radio" name="unit" value="Imperial" id="Imperial"> Imperial -->
-  <!--<form>
-    <input type="text" id="weight" placeholder="Weight">
-    <input type="text" id="height" placeholder="Height">
-    <input type="button" id="calculate" value="Calculate">
-  </form> -->
-  <div>
-    <span id="display_value"></span>
-    <span id="display_message"></span>
 
-  </div>
+        <span id="display_value"></span>
+        <span id="display_message"></span>
+      </div>
+    </div>
 </body>
 
 <script type="text/javascript">
