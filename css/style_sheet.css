@@ -14,18 +14,32 @@ h2 {
     color: black;
 }
 
+h1.display-4 {
+  text-align: center;
+  font-size: 42px;
+}
+
 .jumbotron{
     background-color: #3E668D;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 a {
     color: black
+
+}
+
+li.list {
+  list-style-type: none;
+
 }
 
 div.card-body {
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    border-radius: 5px;
 }
 
 button#calculate.button {
@@ -33,4 +47,9 @@ button#calculate.button {
   width: 12em;
   height: 3em;
 
+}
+
+p.lead {
+  font-size: 24px;
+  text-align: center;
 }
